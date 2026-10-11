@@ -1,0 +1,14 @@
+weather = input("Is It Sunny today?, (yes/no): ")
+homework = input("Do you have homework?, (yes/no): ")
+
+if weather == "yes":
+    print("Go Outside and Play! the weather is fine!")
+else:
+    print("stay inside and read a book.")
+
+if homework == "yes":
+    print("Do your Homework first.")
+else:
+    print("You can have fun!")
+
+print("Have a great day!")
